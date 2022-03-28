@@ -5,8 +5,8 @@
 ## To Run
 
 ```
-    go install https://github.com/landonbjones/task
-    ./task -port=5000
+    go install github.com/landonbjones/task@latest
+    task 
 ```
 
 ## External Services
