@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"errors"
 	"flag"
 	"fmt"
 	"io/ioutil"
@@ -60,7 +59,6 @@ func randomName() (Name, error) {
 
 func randomJoke(name Name) (string, error) {
 	resp, err := http.Get(jokeEndpoint + "?limitTo=nerdy&firstName=" + name.First + "&lastName=" + name.Last)
-	err = errors.New("There")
 	if err != nil {
 		return "", logError(err)
 	}

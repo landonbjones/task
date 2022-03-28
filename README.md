@@ -2,11 +2,21 @@
 
 **task** is a simple web service that returns a joke with a random name in it. 
 
-## To Run
-
+## Installing 
+To install **task** run the following command
 ```
-    go install github.com/landonbjones/task@latest
-    task 
+$ go install github.com/landonbjones/task@latest
+```
+
+## Running
+To run **task** once it is install 
+```
+$ task
+```
+## Using 
+```
+$ curl "http://localhost:5000"
+Cyndy Scro doesn't use web standards as the web will conform to him.
 ```
 
 ## External Services
