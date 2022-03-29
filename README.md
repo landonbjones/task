@@ -9,7 +9,7 @@ $ go install github.com/landonbjones/task@latest
 ```
 
 ## Running
-To run **task** once it is install 
+To run **task** once it is installed
 ```
 $ task
 ```
