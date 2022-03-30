@@ -23,5 +23,5 @@ Cyndy Scro doesn't use web standards as the web will conform to him.
 
 https://names.mcquay.me/api/v0 is used to fetch a random name.
 
-http://api.icndb.com/jokes/random is used to fetch a random job.
+http://api.icndb.com/jokes/random is used to fetch a random joke.
 
